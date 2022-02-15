@@ -18,15 +18,15 @@ const Hero = () => (
       </div>
       <div className="hero__information">
         <h1 className="hero__title">
-          <span className="hero__title_red">Cute</span> is the new ‘
-          <span className="hero__title_red">cool</span>’
+          <span className="hero__title_red">KanariDAO</span> is the next generation ‘
+          <span className="hero__title_red">DAO</span>’
         </h1>
         <p className="hero__text">
-          Now you can own some of the cutest critters in the Metaverse.
+          Now you can access unique products, apps and information! 
         </p>
-        <p className="hero__text hero__text_red">Sale Launches August 16th</p>
-        <CalendarBtn className="hero__calendar-btn" />
-        <ReactSVG className="hero__img" src={bigCat} />
+        <p className="hero__text hero__text_red">Sale Launches soon..</p>
+        {/* <CalendarBtn className="hero__calendar-btn" /> */}
+        {/* <ReactSVG className="hero__img" src={bigCat} /> */}
       </div>
     </div>
   </div>
