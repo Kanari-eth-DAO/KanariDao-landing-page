@@ -1,7 +1,5 @@
 import React from 'react';
 import { ReactSVG } from 'react-svg';
-import CalendarBtn from './CalendarBtn';
-import bigCat from '../../assets/images/hero-big-cat.svg';
 import bgEllipse from '../../assets/images/hero-ellipse.svg';
 import bgCloud1 from '../../assets/images/hero-cloud1.svg';
 import bgCloud2 from '../../assets/images/hero-cloud2.svg';
@@ -18,15 +16,12 @@ const Hero = () => (
       </div>
       <div className="hero__information">
         <h1 className="hero__title">
-          <span className="hero__title_red">KanariDAO</span> is the next generation ‘
+          <span className="hero__title_red">KanariDAO</span> is the next Gen‘
           <span className="hero__title_red">DAO</span>’
         </h1>
-        <p className="hero__text">
-          Now you can access unique products, apps and information! 
-        </p>
-        <p className="hero__text hero__text_red">Sale Launches soon..</p>
-        {/* <CalendarBtn className="hero__calendar-btn" /> */}
-        {/* <ReactSVG className="hero__img" src={bigCat} /> */}
+        {/* <p className="hero__text">
+          Now you can access unique products and information</p>
+        <p className="hero__text hero__text_red">Product Launches soon</p> */}
       </div>
     </div>
   </div>
