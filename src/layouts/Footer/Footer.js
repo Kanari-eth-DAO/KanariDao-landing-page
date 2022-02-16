@@ -1,9 +1,7 @@
 import React, { useContext, memo } from 'react';
-import { ReactSVG } from 'react-svg';
 import { appStore } from '../../state/app';
 import Navigation from '../../components/Navigation';
 import SocialLinks from '../../components/SocialLinks';
-import logo from '../../assets/images/footer-near-logo.svg';
 
 const Footer = () => {
   const { state } = useContext(appStore);
@@ -15,15 +13,11 @@ const Footer = () => {
         <Navigation className="footer__navigation" signedIn={wallet.signedIn} />
         <SocialLinks className="footer__social" />
 
-        <p className="footer__built">Built on</p>
-        <ReactSVG className="footer__logo" src={logo} />
-
         <p className="footer__text">
-          Nearkat NFTs are built on top of NEAR Protocol, where minting NFTs
-          cost less than a cent per item.
+          KanariDao is build on top of web3 stack that create trust
         </p>
         <p className="footer__copyright ">
-          © 2021 Nearkat Guild. All Rights Reserved.
+          ©2022 KanariDao. All Rights Reserved.
         </p>
       </div>
     </footer>

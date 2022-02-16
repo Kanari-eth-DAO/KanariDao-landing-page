@@ -11,11 +11,6 @@ const Navigation = ({ className, signedIn }) => (
         </Link>
       </li>
       <li className="navigation__list-item">
-        <Link to="/#rarity" className="navigation__link">
-          Rarity
-        </Link>
-      </li>
-      <li className="navigation__list-item">
         <Link to="/#faq" className="navigation__link">
           FAQ
         </Link>
