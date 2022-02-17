@@ -17,7 +17,7 @@ const FAQ = () => (
         <h2 className="faq__title">Frequently Asked Questions</h2>
         <ul className="faq__list">
           <li className="faq__item">
-            <h3 className="faq__item-title">What’s an NFT?</h3>
+            <h3 className="faq__item-title">What’s an DAO?</h3>
             <p className="faq__item-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
               vehicula vehicula diam in auctor. Suspendisse ultricies erat sem,
@@ -31,39 +31,7 @@ const FAQ = () => (
             </p>
           </li>
           <li className="faq__item">
-            <h3 className="faq__item-title">
-              Where does my NFT go after I purchase it?
-            </h3>
-            <p className="faq__item-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-              vehicula vehicula diam in auctor. Suspendisse ultricies erat sem,
-              nec consequat enim facilisis eu. Curabitur sit amet tempus magna.
-              Sed a mauris eget erat pellentesque gravida vitae at quam. Morbi
-              commodo convallis sapien ut mollis. Nullam et lectus venenatis,
-              condimentum erat nec, rutrum nisl. Aliquam nec euismod ante.
-              Maecenas id neque ipsum. Cras ut felis ultrices enim faucibus
-              congue sit amet id ipsum. Pellentesque id dapibus ex, a blandit
-              erat. Sed tincidunt lorem sit amet ullamcorper congue.
-            </p>
-          </li>
-          <li className="faq__item">
-            <h3 className="faq__item-title">What’s an NFT?</h3>
-            <p className="faq__item-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-              vehicula vehicula diam in auctor. Suspendisse ultricies erat sem,
-              nec consequat enim facilisis eu. Curabitur sit amet tempus magna.
-              Sed a mauris eget erat pellentesque gravida vitae at quam. Morbi
-              commodo convallis sapien ut mollis. Nullam et lectus venenatis,
-              condimentum erat nec, rutrum nisl. Aliquam nec euismod ante.
-              Maecenas id neque ipsum. Cras ut felis ultrices enim faucibus
-              congue sit amet id ipsum. Pellentesque id dapibus ex, a blandit
-              erat. Sed tincidunt lorem sit amet ullamcorper congue.
-            </p>
-          </li>
-          <li className="faq__item">
-            <h3 className="faq__item-title">
-              Where does my NFT go after I purchase it?
-            </h3>
+            <h3 className="faq__item-title">How can I join the KanariDAO?</h3>
             <p className="faq__item-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
               vehicula vehicula diam in auctor. Suspendisse ultricies erat sem,
@@ -77,11 +45,6 @@ const FAQ = () => (
             </p>
           </li>
         </ul>
-        <img
-          className="faq__kat-img"
-          src="./images/faq-kat.png"
-          alt="nearkat"
-        />
       </div>
     </section>
   </div>
